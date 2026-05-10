@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# pytest
+.pytest_cache/
+
+# ChromaDB vector store (generated at runtime)
+chroma_db/
+
+# Ollama downloaded models (large binary data)
+ollama_data/
+
+# Environment secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Scratch / temp files
+scratch/
+
+# OS
+.DS_Store
+Thumbs.db

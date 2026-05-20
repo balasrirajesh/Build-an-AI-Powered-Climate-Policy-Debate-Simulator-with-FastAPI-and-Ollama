@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir --default-timeout=1000 --extra-index-url https://
 COPY . .
 
 # Expose port
-EXPOSE 7000
+EXPOSE 8000
 
 # Run the application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
